@@ -1,0 +1,40 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+h2 {
+    text-align:center;
+    margin-block: 2em;
+    font-size: 2rem;
+}
+
+#loginForm {
+    margin-inline: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-between;
+}
+
+input:not(:last-child) {
+    height: 2rem;
+}
+
+#Login_btn {
+    width: 50%;
+    height: 1.5rem;
+    margin-inline: auto;
+    border: 0 solid;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    font-weight:600;
+}
+
+
+
